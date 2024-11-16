@@ -99,10 +99,15 @@
 # print(factorial(10))
 
 
-def gen(a: int, b: int) -> str:
-    if a > b:
-        a, b = b, a
-    for i in range(a, b + 1):
-        yield str(i)
-for item in gen(10, 1):
-    print(f'{item = }')
+# def gen(a: int, b: int) -> str:
+#     if a > b:
+#         a, b = b, a
+#     for i in range(a, b + 1):
+#         yield str(i)
+# for item in gen(10, 1):
+#     print(f'{item = }')
+
+
+t = tuple(['red', 'green', 'blue'])
+red, green, blue = t
+print('r:{} g:{} b:{}'.format(red, green, blue)) # r:red g:green b:blue
