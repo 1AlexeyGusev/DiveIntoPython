@@ -5,7 +5,7 @@
 # сторона, считаем что у нас квадрат.
 
 
-class Rectangle():
+class Rectangle:
     def __init__(self, width, length=None):
         self.width = width
         self.length = length
